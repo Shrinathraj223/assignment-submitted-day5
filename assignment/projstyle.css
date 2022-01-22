@@ -1,0 +1,35 @@
+  body{
+      margin: 0;
+  }
+
+
+
+ .navbar{
+     background-color: #e6e6e6;
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ 
+ .navbar #navilogo{
+
+    width: 100px;
+    padding: 5px;
+}
+.navbar ul{
+    list-style-type: none;
+
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar ul li a{
+    padding: 10px;
+    color: rgb(250, 7, 7);
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: blue;
+}
+
+
